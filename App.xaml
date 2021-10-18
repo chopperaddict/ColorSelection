@@ -1,0 +1,38 @@
+﻿<Application x:Class="ColorSelection.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:ColorSelection"
+             StartupUri="MainWindow.xaml">
+	
+    <Application.Resources>
+		<ResourceDictionary>
+			<ResourceDictionary.MergedDictionaries>
+
+			<!--<ResourceDictionary Source="Dicts\ButtonMainTemplate.xaml" />
+			<ResourceDictionary Source="Dicts\DataTemplates.xaml" />
+			<ResourceDictionary Source="Dicts\Menus.xaml" />
+			<ResourceDictionary Source="Dicts\StylesDict.xaml" />-->
+			<ResourceDictionary Source="ColorsDictionary.xaml" />
+			<!--<ResourceDictionary Source="Dicts\ButtonsMaster.xaml" />
+			<ResourceDictionary Source="Dicts\DiagonalGradients.xaml" />
+			<ResourceDictionary Source="Dicts\HorizontalGradients.xaml" />
+			<ResourceDictionary Source="Dicts\VerticalGradients.xaml" />
+			<ResourceDictionary Source="Dicts\ControlTemplates.xaml" />
+			<ResourceDictionary Source="Dicts\BaseDictionary.xaml" />
+			<ResourceDictionary Source="Dicts\AppButtonsDictionary.xaml" />
+			<ResourceDictionary Source="Dicts\ButtonDictionary.xaml" />
+			<ResourceDictionary Source="Dicts\TestDictionary.xaml" />
+			<ResourceDictionary Source="Dicts\BaseDictionary.xaml" />
+			<ResourceDictionary Source="Dicts\BtnsDict.xaml" />
+			<ResourceDictionary Source="Dicts\DGCellStyles.xaml" />
+			<ResourceDictionary Source="Dicts\ListBoxControlTemplates.xaml" />
+			<ResourceDictionary Source="Dicts\BankDataGridTemplates.xaml" />
+			<ResourceDictionary Source="Dicts\DataGridControlTemplates.xaml" />
+			<ResourceDictionary Source="Dicts\BankDataTemplates.xaml" />
+			<ResourceDictionary Source="ViewModels\CustomersDataTemplates.xaml" />
+			<ResourceDictionary Source="Dicts\BankDataGridColumns.xaml" />
+			<ResourceDictionary Source="Dicts\NWDataTemplates.xaml" />-->
+		</ResourceDictionary.MergedDictionaries>
+			</ResourceDictionary>
+	</Application.Resources>
+</Application>
